@@ -1,3 +1,15 @@
+// 写一个函数判断字符串中x的数量和o的数量是否相等（忽略大小写）：
+
+// XO("ooxx") => true
+// XO("xooxx") => false
+// XO("ooxXm") => true
+// XO("zpzpzpp") => true // 没有x也没有o，所有相等，都为0
+// XO("zzoo") => fals
+
+
+
+
+
 const numbersInStr = (x = '') => (str = '') => {
   const reg = new RegExp(x, 'ig');
   const result = str.match(reg) || [];
