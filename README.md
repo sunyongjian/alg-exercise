@@ -31,3 +31,18 @@ XO("zzoo") => false
 ```
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-3.js)
+
+
+### w1-4
+写一个函数判断一个数字是不是某个整数的平方。
+```
+is_square (-1) # => false
+is_square   0 # => true
+is_square   3 # => false
+is_square   4 # => true
+is_square  25 # => true
+is_square  26 # => false
+```
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-4.js)
+
