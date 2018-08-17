@@ -46,3 +46,18 @@ is_square  26 # => false
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-4.js)
 
+
+### w1-5
+
+写一个函数，将字符串除了最后的四位，其他都变成#
+```
+maskify("4556364607935616") == "############5616"
+maskify("64607935616")      == "#######5616"
+maskify("1")                == "1"
+maskify("")                 == ""
+maskify("Skippy")           == "##ippy"
+
+maskify("Nananananananananananananananana Batman!") == "####################################man!"
+```
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-5.js)
