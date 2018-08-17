@@ -61,3 +61,23 @@ maskify("Nananananananananananananananana Batman!") == "########################
 ```
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-5.js)
+
+
+### w1-6
+下面三角形的数列：
+
+             1
+          3     5
+       7     9    11
+   13    15    17    19
+21    23    25    27    29
+...
+写一个函数，给定行的序号，然后求和：
+```
+rowSumOddNumbers(1) // 1
+rowSumOddNumbers(2) // 3+5=8
+rowSumOddNumbers(3) // 7+9+11=27
+rowSumOddNumbers(42) // 74088
+```
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-6.js)
+
