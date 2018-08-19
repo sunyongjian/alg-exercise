@@ -9,7 +9,7 @@ accum("abcd");    // "A-Bb-Ccc-Dddd"
 accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt");    // "C-Ww-Aaa-Tttt"
 ```
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-1.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-1.js)
 ### w1-2
 
 写一个函数求数组的最大值和最小值
@@ -18,7 +18,7 @@ highAndLow("1 2 3 4 5"); // return "5 1"
 highAndLow("1 2 -3 4 5"); // return "5 -3"
 highAndLow("1 9 3 4 -5"); // return "9 -5"
 ```
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-2.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-2.js)
 ### w1-3
 写一个函数判断字符串中x的数量和o的数量是否相等（忽略大小写）：
 
@@ -30,7 +30,7 @@ XO("zpzpzpp") => true // 没有x也没有o，所有相等，都为0
 XO("zzoo") => false
 ```
 
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-3.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-3.js)
 
 
 ### w1-4
@@ -44,7 +44,7 @@ is_square  25 # => true
 is_square  26 # => false
 ```
 
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-4.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-4.js)
 
 
 ### w1-5
@@ -60,7 +60,7 @@ maskify("Skippy")           == "##ippy"
 maskify("Nananananananananananananananana Batman!") == "####################################man!"
 ```
 
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-5.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-5.js)
 
 
 ### w1-6
@@ -80,5 +80,13 @@ rowSumOddNumbers(2) // 3+5=8
 rowSumOddNumbers(3) // 7+9+11=27
 rowSumOddNumbers(42) // 74088
 ```
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/w1-6.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-6.js)
 
+
+### w1-7
+将数字的每一位求平方，然后组合成新的数字（注意：请返回一个数字）
+```
+squareDigits(9119) // 811181
+```
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-7.js)
