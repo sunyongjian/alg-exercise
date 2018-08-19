@@ -65,13 +65,14 @@ maskify("Nananananananananananananananana Batman!") == "########################
 
 ### w1-6
 下面三角形的数列：
-
+```
              1
           3     5
        7     9    11
    13    15    17    19
 21    23    25    27    29
 ...
+```
 写一个函数，给定行的序号，然后求和：
 ```
 rowSumOddNumbers(1) // 1
