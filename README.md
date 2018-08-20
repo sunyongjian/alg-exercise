@@ -90,3 +90,17 @@ squareDigits(9119) // 811181
 ```
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week1/w1-7.js)
+
+### w2-1
+写一个函数 solution，求比一个数字 n 小的所有 3 和 5 的整数倍数和。
+
+比如 10，比它小的 3、5 整数倍数有： 3,5,6,9， 所以和为 23。 比如 16， 比它小的 3，5 整数倍数有： 3,5,6,9,10,12,15，所以和为 60（15只计算1次）
+
+示例：
+```js
+solution(10) // 23
+solution(16) // 60
+```
+注意，如果输入负数，返回0
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w1-1.js)
