@@ -107,7 +107,7 @@ solution(16) // 60
 
 
 ### w2-2
-写一个二分查找函数bsearch，和之前学习的二分查找函数有一定的变化。
+写一个二分查找函数bsearch
 ```
 function bsearch(A, x) {
   /// TODO
