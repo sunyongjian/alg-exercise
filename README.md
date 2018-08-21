@@ -103,4 +103,4 @@ solution(16) // 60
 ```
 注意，如果输入负数，返回0
 
-[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w1-1.js)
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-1.js)
