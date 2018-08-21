@@ -104,3 +104,26 @@ solution(16) // 60
 注意，如果输入负数，返回0
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-1.js)
+
+
+### w2-2
+写一个二分查找函数bsearch，和之前学习的二分查找函数有一定的变化。
+```
+function bsearch(A, x) {
+  /// TODO
+}
+```
+A 是一个已排序的数组，x 是目标值。
+
+如果找到目标值，返回目标值在数组中的序号。
+如果没有找到目标值，返回目标值应该被插入的位置
+比如数组: `A = 3,5,7,13,22,25`
+```js
+bsearch(A, 5) // 1
+bsearch(A, 13) // 3
+bsearch(A, 4) // 1
+bsearch(A, -1) // 0
+bsearch(A, -10000) // 0
+bsearch(A, 30) // 6
+```
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-2.js)
