@@ -58,3 +58,30 @@ console.log(bsearch1(ary, 13)); // 3
 console.log(bsearch1(ary, 7));  // 2
 console.log(bsearch1(ary, -1)); // 0
 console.log(bsearch1(ary, 0));  // 0
+
+
+function bsearch2(A, x){
+	let middleIndex = 0;
+	let left = 0;
+	let right = A.length - 1;
+	while(left <= right){
+		middleIndex = Math.ceil((right + left)/2);
+		if (A[middleIndex] === x) {
+			return middleIndex;
+		} else if (A[middleIndex] < x) {
+			left = middleIndex + 1;
+		} else {
+			right = middleIndex - 1;
+		}
+	}
+	return left;
+}
+
+console.log(bsearch2(ary, 5));  // 1
+console.log(bsearch2(ary, 6));  // 2
+console.log(bsearch2(ary, 30)); // 6
+console.log(bsearch2(ary, 4));  // 1
+console.log(bsearch2(ary, 13)); // 3
+console.log(bsearch2(ary, 7));  // 2
+console.log(bsearch2(ary, -1)); // 0
+console.log(bsearch2(ary, 0));  // 0
