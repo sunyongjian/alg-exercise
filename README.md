@@ -139,3 +139,15 @@ special( [160, 3, 1719, 19, 11, 13, -21] ) // 160 唯一的偶数
 ```
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-3.js)
+
+
+### w2-4
+
+写一个函数 reverse 反转一个数组 A
+
+要求：
+
+- 不可以使用 Array.reverse
+- 请不要创建新数组
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-4.js)
