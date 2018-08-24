@@ -151,3 +151,16 @@ special( [160, 3, 1719, 19, 11, 13, -21] ) // 160 唯一的偶数
 - 请不要创建新数组
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-4.js)
+
+
+### w2-5
+定义数组的旋转操作`rotate(A, amount)`，让数尾部amount个元素移动到头部。
+
+例如数组:
+```js
+A=[1,2,3,4,5,6,7]
+
+rotate(A, 1) // [7,1,2,3,4,5,6]
+rotate(A, 2) // [6,7,1,2,3,4,5]
+rotate(A, 3) // [5,6,7,1,2,3,4] // 以此类推
+```
