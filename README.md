@@ -164,3 +164,11 @@ rotate(A, 1) // [7,1,2,3,4,5,6]
 rotate(A, 2) // [6,7,1,2,3,4,5]
 rotate(A, 3) // [5,6,7,1,2,3,4] // 以此类推
 ```
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-5.js)
+
+### w2-6
+
+请实现一个递归版本的 `reverse` 函数，反转一个数组。
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-6.js)
+
