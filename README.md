@@ -176,12 +176,21 @@ rotate(A, 3) // [5,6,7,1,2,3,4] // 以此类推
 
 ### w2-7
 
-1. 尝试写一个插入排序。
+1. 先尝试写一个插入排序。
 
-2. 插入排序的子过程会向一个有序数组中插入一个元素，结合 w2-2 写的二分查找，直接利用 bsearch 找到需要插入元素的位置，然后执行插入
+2. 写完后改造：插入排序的子过程会向一个有序数组中插入一个元素，结合 w2-2 写的二分查找，直接利用 bsearch 找到需要插入元素的位置，然后执行插入
 
 3. 新插入排序的算法复杂度？这样是变快还是变慢了？
 
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week2/w2-7.js)
 
+
+
+### w3-1
+写一个函数flat展平一个数组
+```js
+flat([1,[2,'a',[5,6]],8]) // [1,2,'a',5,6,8]
+```
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week3/w3-1.js)
