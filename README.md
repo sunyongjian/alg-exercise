@@ -1,5 +1,7 @@
 ## 百日算法
+
 每天一个算法题
+
 
 ## week1
 ### w1-1
@@ -194,3 +196,13 @@ flat([1,[2,'a',[5,6]],8]) // [1,2,'a',5,6,8]
 ```
 
 [answer](https://github.com/sunyongjian/alg-exercise/blob/master/week3/w3-1.js)
+
+
+### w3-2
+素数是（不包括1）只能被自己1整除的数字，比如2、3、5、7、11、13……都是素数，写一个函数is_prime验证一个数字是否是素数。
+
+is_prime(1) // false
+is_prime(100) // false
+is_prime(13) // true
+is_prime(179426549) // true
+is_prime(22801763489) // true
