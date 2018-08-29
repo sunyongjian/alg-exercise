@@ -206,3 +206,19 @@ is_prime(100) // false
 is_prime(13) // true
 is_prime(179426549) // true
 is_prime(22801763489) // true
+
+
+### w3-3
+柯里化函数curry是这样一个函数，它将一个接受多参数的函数，转换成为接收连续单参数的高阶函数（可以被连续调用）。
+例如：
+
+function _add(a, b, c, d) {
+  return a + b + c + d
+}
+
+const add = curry(add)
+
+console.log( add(1) ) // 函数
+console.log( add(1)(2) ) // 函数
+console.log( add(1)(2)(3) ) // 函数
+console.log ( add(1)(2)(3)(4) ) // 10

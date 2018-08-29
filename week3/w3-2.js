@@ -15,6 +15,7 @@ const is_prime = num => {
   }
   return num % 2 !== 0;
 }
+
 console.log(is_prime(0));
 console.log(is_prime(1));
 console.log(is_prime(2));
