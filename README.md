@@ -200,18 +200,18 @@ flat([1,[2,'a',[5,6]],8]) // [1,2,'a',5,6,8]
 
 ### w3-2
 素数是（不包括1）只能被自己1整除的数字，比如2、3、5、7、11、13……都是素数，写一个函数is_prime验证一个数字是否是素数。
-
+```js
 is_prime(1) // false
 is_prime(100) // false
 is_prime(13) // true
 is_prime(179426549) // true
 is_prime(22801763489) // true
-
+```
 
 ### w3-3
 柯里化函数curry是这样一个函数，它将一个接受多参数的函数，转换成为接收连续单参数的高阶函数（可以被连续调用）。
 例如：
-
+```js
 function _add(a, b, c, d) {
   return a + b + c + d
 }
@@ -222,3 +222,15 @@ console.log( add(1) ) // 函数
 console.log( add(1)(2) ) // 函数
 console.log( add(1)(2)(3) ) // 函数
 console.log ( add(1)(2)(3)(4) ) // 10
+```
+
+### w3-4
+
+写一个函数 floor_power_of2，求比 x 小的最大二的整数次幂。
+例如
+```js
+floor_power_of2(64) // 64
+floor_power_of2(63) // 32
+floor_power_of2(33) // 32
+floor_power_of2(32) // 32
+```
