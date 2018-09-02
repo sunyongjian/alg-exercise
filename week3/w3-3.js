@@ -15,7 +15,9 @@ const curry = fn => {
   return tmp;
 }
 const add = (a, b, c, d) => a + b + c + d;
+const pow = curry(Math.pow);
 
+console.log(pow(10)(2)) // 100
 const cadd = curry(add);
 cadd(1);
 cadd(2);
