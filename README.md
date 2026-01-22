@@ -330,3 +330,16 @@ traverse([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], 4)
 // 9 10 11  12
 //13 14 15  16
 ```
+
+### w4-5
+
+写一个函数 is_palindrome 判断字符串是否为回文（忽略大小写和非字母数字字符）。
+
+例如:
+```js
+is_palindrome("level") // true
+is_palindrome("A man, a plan, a canal: Panama") // true
+is_palindrome("hello") // false
+```
+
+[answer](https://github.com/sunyongjian/alg-exercise/blob/master/week4/w4-5.js)
